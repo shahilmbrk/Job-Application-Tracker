@@ -1,72 +1,65 @@
-# 📋 Application Tracker
+# 📋 Job Application Tracker
 
-A desktop application built with Python for managing and tracking job applications throughout the hiring process.
+A modern desktop application built with Python for organizing and tracking job applications throughout the hiring process.
 
-Application Tracker helps job seekers organize applications, monitor interview progress, track deadlines, store important details, and gain insights through analytics.
+The application helps job seekers manage opportunities, monitor interview progress, track deadlines, store important information, and gain insights through built-in analytics.
 
 ---
 
 ## 🚀 Features
 
 ### 📊 Dashboard
-
-* View total applications at a glance
-* Track Applied, Interview, Offer, Rejected, and In Progress statuses
-* Recent applications overview
-* Status breakdown visualization
-* Activity history tracking
+- Overview of total applications
+- Applied, Interview, Offer, Rejected, and In Progress statistics
+- Recent applications section
+- Status breakdown visualization
+- Activity tracking
 
 ### 📝 Application Management
+- Add new applications
+- Edit existing applications
+- Delete applications
+- Search and filter records
+- Manage job opportunities efficiently
 
-* Add new job applications
-* Edit existing records
-* Delete applications
-* Search and filter applications
-* Organize opportunities efficiently
+### 🔄 Application Status Tracking
 
-### 🔄 Status Tracking
+Track applications across multiple hiring stages:
 
-Track applications through multiple hiring stages:
-
-* Applied
-* Screening
-* Interview
-* Technical Round
-* Offer
-* Accepted
-* Rejected
-* Withdrawn
-* Ghosted
+- Applied
+- Screening
+- Interview
+- Technical Round
+- Offer
+- Accepted
+- Rejected
+- Withdrawn
+- Ghosted
 
 ### 📈 Analytics
+- Application status distribution
+- Priority-based insights
+- Progress visualization
+- Interactive charts and summaries
 
-* Application status distribution
-* Priority analysis
-* Visual charts and summaries
-* Progress tracking insights
-
-### 📌 Additional Details
-
-* Company information
-* Job position
-* Location tracking
-* Application source
-* Priority management
-* Job URL storage
-* Salary expectations
-* Notes and attachments
-* Follow-up reminders
-* Deadlines and important dates
-* Custom tags
+### 📌 Additional Features
+- Company and job details management
+- Job URL storage
+- Salary range tracking
+- Follow-up reminders
+- Deadlines management
+- Notes and attachments
+- Contact information storage
+- Custom tags and categorization
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* SQLite
-* Tkinter / CustomTkinter
-* Object-Oriented Programming (OOP)
+- Python
+- SQLite
+- Tkinter / CustomTkinter
+- Object-Oriented Programming (OOP)
 
 ---
 
@@ -76,17 +69,8 @@ Track applications through multiple hiring stages:
 application-tracker/
 │
 ├── ui/
-│   ├── analytics.py
-│   ├── application_dialog.py
-│   ├── applications_view.py
-│   ├── dashboard.py
-│   ├── sidebar.py
-│   ├── styles.py
-│   └── widgets.py
-│
+├── screenshots/
 ├── data/
-│   └── applications.db
-│
 ├── database.py
 ├── models.py
 ├── main.py
@@ -98,27 +82,13 @@ application-tracker/
 
 ## ⚙️ Installation
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/yourusername/application-tracker.git
-```
+git clone https://github.com/shahilmbrk/Job-Application-Tracker.git
 
-Navigate into the project:
+cd Job-Application-Tracker
 
-```bash
-cd application-tracker
-```
-
-Install dependencies:
-
-```bash
 pip install -r requirements.txt
-```
 
-Run the application:
-
-```bash
 python main.py
 ```
 
@@ -128,38 +98,54 @@ python main.py
 
 ### Dashboard
 
-Displays application statistics, recent activity, and progress overview.
+Track overall job search progress with application statistics, recent activity, and status breakdown charts.
 
-### Applications View
+<img src="screenshots/dashboard.png" width="100%">
 
-Manage and search job applications with filtering support.
+---
+
+### Applications
+
+View, search, filter, edit, and manage all job applications from a centralized table.
+
+<img src="screenshots/application.png" width="100%">
+
+---
 
 ### Analytics
 
-Visual representation of application progress and status distribution.
+Analyze application status distribution and priorities through visual reports.
+
+<img src="screenshots/analytics.png" width="100%">
+
+---
 
 ### Add New Application
 
-Store job details, deadlines, contacts, notes, and attachments.
+Store complete application details including company, position, contacts, deadlines, notes, and attachments.
+
+<img src="screenshots/add application.png" width="100%">
 
 ---
 
 ## 🎯 Future Improvements
 
-* Email notifications
-* Calendar integration
-* Export to Excel/CSV
-* Cloud synchronization
-* Docker support
-* User authentication
-* CI/CD pipeline integration
-* Multi-user support
+- Email notifications
+- Calendar integration
+- CSV / Excel export
+- Docker support
+- Cloud synchronization
+- User authentication
+- Multi-user support
+- GitHub Actions CI/CD
+- AWS deployment
+- Reminder notifications
 
 ---
 
 ## 💡 Why This Project?
 
-Job searching often involves managing dozens of applications across multiple platforms. Application Tracker provides a centralized workspace to monitor progress, organize opportunities, and stay on top of deadlines.
+Job hunting often involves managing dozens of applications across different platforms. This application provides a centralized workspace to organize opportunities, track progress, manage deadlines, and stay focused during the job search process.
 
 ---
 
@@ -167,8 +153,14 @@ Job searching often involves managing dozens of applications across multiple pla
 
 **Shahil Mubarak**
 
-Computer Science Engineer | Python Developer | Aspiring DevOps Engineer
+Computer Science Engineering Graduate  
+Python Developer | Aspiring DevOps Engineer
+
+- GitHub: https://github.com/shahilmbrk
+- LinkedIn: https://linkedin.com/in/shahilmubarak
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
